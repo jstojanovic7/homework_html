@@ -1,45 +1,66 @@
 body {
-    background-color: lightgrey;
+    background-color: whitesmoke
     font-family: helvetica;
     text-align: justify;
 }
 
-div {
-    background-color: grey;
-    margin: 25px;
-    border: 2px solid black;
+.banner {
+    background-color: rgb(0, 24, 50);
+    margin:auto;
+    border:dotted;
     padding: 10px;
+    color: beige;
+
+}
+
+.banner a {
+        color: burlywood;
+        font-size: 1em;
+        font-weight: bold;
+    }   
+
+.content {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}    
+    
+
+.left-aligned {
+    float:inline-start;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .centered {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }    
 
 h1 {
-    color:rgb(1, 1, 67);
-    
-       
+    color:beige       
 }
 
 h2 {
-    color:rgb(1, 1, 67);
-    
+    color:beige;   
 }
 
-h3 {
-    color:black;
+h3 {    
     text-decoration-line: underline;
+    color: rgb(51, 77, 24);
+    font-weight: bolder; 
 }    
 
 p {
     color: rgb(0, 0, 0);
-    text-align: justify;
-    
+    text-align: justify;   
 }
 
 
 a {
-    color: rgb(1, 1, 67);
+    color: rgb(0, 24, 50);
     font-size: 1em;
     font-weight: bold;
 }
